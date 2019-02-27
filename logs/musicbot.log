@@ -1,0 +1,337 @@
+[39.003849030] 2019-02-26 19:41:32,500 - INFO - launcher: Starting sanity checks
+[39.999961853] 2019-02-26 19:41:32,501 - INFO - launcher: Checking for Python 3.5+
+[39.999961853] 2019-02-26 19:41:32,501 - INFO - launcher: Checking console encoding
+[39.999961853] 2019-02-26 19:41:32,501 - INFO - launcher: Setting console encoding to UTF-8
+[39.999961853] 2019-02-26 19:41:32,501 - INFO - launcher: Ensuring we're in the right environment
+[42.000055313] 2019-02-26 19:41:32,503 - INFO - launcher: Adding local bins/ folder to path
+[900.988817215] 2019-02-26 19:41:33,362 - INFO - launcher: Required checks passed.
+[900.988817215] 2019-02-26 19:41:33,362 - INFO - launcher: Optional checks passed.
+[901.988983154] 2019-02-26 19:41:33,363 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.6759803295135498] 2019-02-26 19:41:34,137 - WARNING - musicbot.config | In config.py::MainThread(8464), line 116 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.6759803295135498] 2019-02-26 19:41:34,137 - INFO - musicbot.config | In config.py::MainThread(8464), line 127 in run_checks: Using i18n: config/i18n/en.json
+[1.6789803504943848] 2019-02-26 19:41:34,140 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 226 in _setup_logging: Set logging level to INFO
+[1.6829793453216553] 2019-02-26 19:41:34,144 - DEBUG - musicbot.json | In json.py::MainThread(8464), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.7249784469604492] 2019-02-26 19:41:34,186 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 91 in __init__: Starting MusicBot 1.9.8_4
+[1.7249784469604492] 2019-02-26 19:41:34,186 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 97 in __init__: Loaded autoplaylist with 2531 entries
+[1.9999761581420898] 2019-02-26 19:41:34,461 - DEBUG - musicbot.spotify | In spotify.py::MainThread(8464), line 74 in get_token: Created a new access token: {'access_token': 'BQC3X4KHc3wvx4dOXY28-G8pkoUJpWOlpoBctiS6nO6juYNGixtBOzhQ51-7oQPP2IPnmxSN8flHtZi2K3Y', 'token_type': 'Bearer', 'expires_in': 3600, 'scope': '', 'expires_at': 1551231694}
+[1.9999761581420898] 2019-02-26 19:41:34,461 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 122 in __init__: Authenticated with Spotify successfully using client ID and secret.
+[8.1359066963195801] 2019-02-26 19:41:40,597 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 922 in on_ready: Connection established, ready to go.
+[8.1369011402130127] 2019-02-26 19:41:40,598 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 340 in _cache_app_info: Caching app info
+[8.2039000988006592] 2019-02-26 19:41:40,665 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 744 in _scheck_ensure_env: Ensuring data folders exist
+[8.2059004306793213] 2019-02-26 19:41:40,667 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 760 in _scheck_server_permissions: Checking server permissions
+[8.2059004306793213] 2019-02-26 19:41:40,667 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 764 in _scheck_autoplaylist: Auditing autoplaylist
+[8.2059004306793213] 2019-02-26 19:41:40,667 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 768 in _scheck_configs: Validating config
+[8.2059004306793213] 2019-02-26 19:41:40,667 - DEBUG - musicbot.config | In config.py::MainThread(8464), line 217 in async_validate: Validating options...
+[8.2059004306793213] 2019-02-26 19:41:40,667 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 771 in _scheck_configs: Validating permissions config
+[8.2059004306793213] 2019-02-26 19:41:40,667 - DEBUG - musicbot.permissions | In permissions.py::MainThread(8464), line 94 in async_validate: Validating permissions...
+[8.2059004306793213] 2019-02-26 19:41:40,667 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 939 in on_ready: Connected: 486653237273952301/The gang music bot#1467
+[8.2069005966186523] 2019-02-26 19:41:40,668 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 947 in on_ready: Owner:     131970616415748096/cat#8008
+
+[8.2079007625579834] 2019-02-26 19:41:40,669 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 950 in on_ready: Guild List:
+[8.2089009284973145] 2019-02-26 19:41:40,670 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 954 in on_ready:  - ɯɐǝʇ ǝɯǝɯ
+[8.2089009284973145] 2019-02-26 19:41:40,670 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 954 in on_ready:  - WOV
+[8.2099003791809082] 2019-02-26 19:41:40,671 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 954 in on_ready:  - pukachev army
+[8.3019118309020996] 2019-02-26 19:41:40,763 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 962 in on_ready: Left pukachev army due to bot owner not found
+[8.3029210567474365] 2019-02-26 19:41:40,764 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 997 in on_ready: Bound to text channels:
+[8.3038988113403320] 2019-02-26 19:41:40,765 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 998 in <listcomp>:  - WOV/bot_commands
+[8.3038988113403320] 2019-02-26 19:41:40,765 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 1023 in on_ready: Autojoining voice channels:
+[8.3048992156982422] 2019-02-26 19:41:40,766 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 1024 in <listcomp>:  - WOV/Music Channel
+[8.3058991432189941] 2019-02-26 19:41:40,767 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 1041 in on_ready: Options:
+[8.3058991432189941] 2019-02-26 19:41:40,767 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 1043 in on_ready:   Command prefix: !!
+[8.3068988323211670] 2019-02-26 19:41:40,768 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 1044 in on_ready:   Default volume: 50%
+[8.3079047203063965] 2019-02-26 19:41:40,769 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 1046 in on_ready:   Skip threshold: 4 votes or 50%
+[8.3088994026184082] 2019-02-26 19:41:40,770 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 1047 in on_ready:   Now Playing @mentions: Enabled
+[8.3088994026184082] 2019-02-26 19:41:40,770 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 1048 in on_ready:   Auto-Summon: Enabled
+[8.3098995685577393] 2019-02-26 19:41:40,771 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 1049 in on_ready:   Auto-Playlist: Disabled (order: sequential)
+[8.3108994960784912] 2019-02-26 19:41:40,772 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 1050 in on_ready:   Auto-Pause: Enabled
+[8.3139002323150635] 2019-02-26 19:41:40,775 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 1051 in on_ready:   Delete Messages: Disabled
+[8.3148999214172363] 2019-02-26 19:41:40,776 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 1054 in on_ready:   Debug Mode: Disabled
+[8.3158984184265137] 2019-02-26 19:41:40,777 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 1055 in on_ready:   Downloaded songs will be saved
+[8.3168997764587402] 2019-02-26 19:41:40,778 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 1058 in on_ready:   Write current songs to file: Disabled
+[8.3178987503051758] 2019-02-26 19:41:40,779 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 1059 in on_ready:   Author insta-skip: Enabled
+[8.3178987503051758] 2019-02-26 19:41:40,779 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 1060 in on_ready:   Embeds: Enabled
+[8.3188982009887695] 2019-02-26 19:41:40,780 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 1061 in on_ready:   Spotify integration: Enabled
+[8.3198983669281006] 2019-02-26 19:41:40,781 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 1062 in on_ready:   Legacy skip: Disabled
+[8.3198983669281006] 2019-02-26 19:41:40,781 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 1063 in on_ready:   Leave non owners: Enabled
+[8.3218991756439209] 2019-02-26 19:41:40,783 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 279 in _join_startup_channels: Attempting to join WOV/Music Channel
+[8.3268992900848389] 2019-02-26 19:41:40,788 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 2899 in on_guild_remove: Bot has been removed from guild: pukachev army
+[8.3278994560241699] 2019-02-26 19:41:40,789 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 2900 in on_guild_remove: Updated guild list:
+[8.3278994560241699] 2019-02-26 19:41:40,789 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 2901 in <listcomp>:  - ɯɐǝʇ ǝɯǝɯ
+[8.3278994560241699] 2019-02-26 19:41:40,789 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 2901 in <listcomp>:  - WOV
+[8.7908928394317627] 2019-02-26 19:41:41,252 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 295 in _join_startup_channels: Joined WOV/Music Channel
+[8.7928926944732666] 2019-02-26 19:41:41,254 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 511 in on_player_stop: Running on_player_stop
+[19.7657599449157715] 2019-02-26 19:41:52,227 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 2644 in on_message: 131970616415748096/cat#8008: !!setname sad boye music bot
+[58.4116866588592529] 2019-02-26 19:42:30,873 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 2644 in on_message: 131970616415748096/cat#8008: !!play spotify:user:spotify:playlist:37i9dQZF1DX6xZZEgC9Ubl
+[58.9696772098541260] 2019-02-26 19:42:31,431 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing whoa (mind in awe) XXXTENTACION
+[59.7886562347412109] 2019-02-26 19:42:32,250 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:whoa (mind in awe) XXXTENTACION', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'whoa (mind in awe) XXXTENTACION', 'webpage_url_basename': 'whoa (mind in awe) XXXTENTACION', 'extractor_key': 'Generic'}
+[65.6465842723846436] 2019-02-26 19:42:38,108 - DEBUG - musicbot.entry | In entry.py::MainThread(8464), line 56 in get_ready_future: Created future for None
+[65.6475844383239746] 2019-02-26 19:42:38,109 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Alone As A Facetat Wifisfuneral
+[65.6485848426818848] 2019-02-26 19:42:38,110 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[65.6495847702026367] 2019-02-26 19:42:38,111 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[65.6505846977233887] 2019-02-26 19:42:38,112 - INFO - musicbot.entry | In entry.py::MainThread(8464), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=GnF1S-WedwI
+[65.7125842571258545] 2019-02-26 19:42:38,174 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Alone As A Facetat Wifisfuneral', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Alone As A Facetat Wifisfuneral', 'webpage_url_basename': 'Alone As A Facetat Wifisfuneral', 'extractor_key': 'Generic'}
+[67.3235652446746826] 2019-02-26 19:42:39,785 - INFO - musicbot.entry | In entry.py::MainThread(8464), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=GnF1S-WedwI
+[67.6456129550933838] 2019-02-26 19:42:40,107 - DEBUG - musicbot.entry | In entry.py::MainThread(8464), line 56 in get_ready_future: Created future for audio_cache\youtube-GnF1S-WedwI-XXXTENTACION_-_whoa_mind_in_awe_Audio.webm
+[67.6515605449676514] 2019-02-26 19:42:40,113 - FFMPEG - musicbot.player | In player.py::MainThread(8464), line 273 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-GnF1S-WedwI-XXXTENTACION_-_whoa_mind_in_awe_Audio.webm
+[67.7295587062835693] 2019-02-26 19:42:40,191 - DEBUG - musicbot.player | In player.py::MainThread(8464), line 284 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x01470E30> using <discord.voice_client.VoiceClient object at 0x051B9390>
+[67.7315597534179688] 2019-02-26 19:42:40,193 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 458 in on_player_play: Running on_player_play
+[67.7325596809387207] 2019-02-26 19:42:40,194 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[70.3615324497222900] 2019-02-26 19:42:42,823 - DEBUG - musicbot.entry | In entry.py::MainThread(8464), line 56 in get_ready_future: Created future for None
+[70.3615324497222900] 2019-02-26 19:42:42,823 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Lean Wit Me Juice WRLD
+[70.3625271320343018] 2019-02-26 19:42:42,824 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[70.3635265827178955] 2019-02-26 19:42:42,825 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[70.3635265827178955] 2019-02-26 19:42:42,825 - INFO - musicbot.entry | In entry.py::MainThread(8464), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=Ye0WwEluAiw
+[70.3695325851440430] 2019-02-26 19:42:42,831 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 2644 in on_message: 131970616415748096/cat#8008: !!shuffle
+[70.4325256347656250] 2019-02-26 19:42:42,894 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Lean Wit Me Juice WRLD', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Lean Wit Me Juice WRLD', 'webpage_url_basename': 'Lean Wit Me Juice WRLD', 'extractor_key': 'Generic'}
+[71.9095082283020020] 2019-02-26 19:42:44,371 - INFO - musicbot.entry | In entry.py::MainThread(8464), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=Ye0WwEluAiw
+[74.7134735584259033] 2019-02-26 19:42:47,175 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Problems Lil Peep
+[74.7154741287231445] 2019-02-26 19:42:47,177 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[74.7154741287231445] 2019-02-26 19:42:47,177 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[74.7894740104675293] 2019-02-26 19:42:47,251 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Problems Lil Peep', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Problems Lil Peep', 'webpage_url_basename': 'Problems Lil Peep', 'extractor_key': 'Generic'}
+[79.6774141788482666] 2019-02-26 19:42:52,139 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Negative Energy Trippie Redd
+[79.6784136295318604] 2019-02-26 19:42:52,140 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[79.6794140338897705] 2019-02-26 19:42:52,141 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[79.7524132728576660] 2019-02-26 19:42:52,214 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Negative Energy Trippie Redd', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Negative Energy Trippie Redd', 'webpage_url_basename': 'Negative Energy Trippie Redd', 'extractor_key': 'Generic'}
+[83.9693622589111328] 2019-02-26 19:42:56,431 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Look Like Yung Pinch
+[83.9703614711761475] 2019-02-26 19:42:56,432 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[83.9703614711761475] 2019-02-26 19:42:56,432 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[84.0433611869812012] 2019-02-26 19:42:56,505 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Look Like Yung Pinch', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Look Like Yung Pinch', 'webpage_url_basename': 'Look Like Yung Pinch', 'extractor_key': 'Generic'}
+[88.5703589916229248] 2019-02-26 19:43:01,032 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing SAD! XXXTENTACION
+[88.5723073482513428] 2019-02-26 19:43:01,034 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[88.5723073482513428] 2019-02-26 19:43:01,034 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[88.6493046283721924] 2019-02-26 19:43:01,111 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:SAD! XXXTENTACION', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'SAD! XXXTENTACION', 'webpage_url_basename': 'SAD! XXXTENTACION', 'extractor_key': 'Generic'}
+[93.6312537193298340] 2019-02-26 19:43:06,093 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Rnrn shinigami
+[93.6322445869445801] 2019-02-26 19:43:06,094 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[93.6322445869445801] 2019-02-26 19:43:06,094 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[93.7152431011199951] 2019-02-26 19:43:06,177 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Rnrn shinigami', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Rnrn shinigami', 'webpage_url_basename': 'Rnrn shinigami', 'extractor_key': 'Generic'}
+[97.6274118423461914] 2019-02-26 19:43:10,089 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Scar 6 Dogs
+[97.6294112205505371] 2019-02-26 19:43:10,091 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[97.6294112205505371] 2019-02-26 19:43:10,091 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[97.7134280204772949] 2019-02-26 19:43:10,175 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Scar 6 Dogs', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Scar 6 Dogs', 'webpage_url_basename': 'Scar 6 Dogs', 'extractor_key': 'Generic'}
+[101.9178540706634521] 2019-02-26 19:43:14,379 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Everything Smrtdeath
+[101.9198539257049561] 2019-02-26 19:43:14,381 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[101.9198539257049561] 2019-02-26 19:43:14,381 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[102.0248537063598633] 2019-02-26 19:43:14,486 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Everything Smrtdeath', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Everything Smrtdeath', 'webpage_url_basename': 'Everything Smrtdeath', 'extractor_key': 'Generic'}
+[106.5910742282867432] 2019-02-26 19:43:19,052 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Xanny Bars 222 ✦Pink Cig✦
+[106.5930743217468262] 2019-02-26 19:43:19,054 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[106.5930743217468262] 2019-02-26 19:43:19,054 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[106.6750731468200684] 2019-02-26 19:43:19,136 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Xanny Bars 222 ✦Pink Cig✦', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Xanny Bars 222 ✦Pink Cig✦', 'webpage_url_basename': 'Xanny Bars 222 ✦Pink Cig✦', 'extractor_key': 'Generic'}
+[110.6094903945922852] 2019-02-26 19:43:23,071 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Taking A Walk Trippie Redd
+[110.6114747524261475] 2019-02-26 19:43:23,073 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[110.6114747524261475] 2019-02-26 19:43:23,073 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[110.7174737453460693] 2019-02-26 19:43:23,179 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Taking A Walk Trippie Redd', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Taking A Walk Trippie Redd', 'webpage_url_basename': 'Taking A Walk Trippie Redd', 'extractor_key': 'Generic'}
+[114.8860869407653809] 2019-02-26 19:43:27,347 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Spider Web Wicca Phase Springs Eternal
+[114.8870875835418701] 2019-02-26 19:43:27,348 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[114.8870875835418701] 2019-02-26 19:43:27,348 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[114.9873619079589844] 2019-02-26 19:43:27,449 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Spider Web Wicca Phase Springs Eternal', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Spider Web Wicca Phase Springs Eternal', 'webpage_url_basename': 'Spider Web Wicca Phase Springs Eternal', 'extractor_key': 'Generic'}
+[118.7970652580261230] 2019-02-26 19:43:31,258 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing All Girls Are The Same Juice WRLD
+[118.7990658283233643] 2019-02-26 19:43:31,260 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[118.7990658283233643] 2019-02-26 19:43:31,260 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[118.8660657405853271] 2019-02-26 19:43:31,327 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:All Girls Are The Same Juice WRLD', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'All Girls Are The Same Juice WRLD', 'webpage_url_basename': 'All Girls Are The Same Juice WRLD', 'extractor_key': 'Generic'}
+[122.8939964771270752] 2019-02-26 19:43:35,355 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Colder outsideOUTSIDE
+[122.8959960937500000] 2019-02-26 19:43:35,357 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[122.8959960937500000] 2019-02-26 19:43:35,357 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[122.9659953117370605] 2019-02-26 19:43:35,427 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Colder outsideOUTSIDE', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Colder outsideOUTSIDE', 'webpage_url_basename': 'Colder outsideOUTSIDE', 'extractor_key': 'Generic'}
+[127.2851130962371826] 2019-02-26 19:43:39,746 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Meet Mr. NICEGUY $uicideBoy$
+[127.2881131172180176] 2019-02-26 19:43:39,749 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[127.2881131172180176] 2019-02-26 19:43:39,749 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[127.3621125221252441] 2019-02-26 19:43:39,823 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Meet Mr. NICEGUY $uicideBoy$', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Meet Mr. NICEGUY $uicideBoy$', 'webpage_url_basename': 'Meet Mr. NICEGUY $uicideBoy$', 'extractor_key': 'Generic'}
+[131.5740072727203369] 2019-02-26 19:43:44,035 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing No Rest Lil Skies
+[131.5760056972503662] 2019-02-26 19:43:44,037 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[131.5760056972503662] 2019-02-26 19:43:44,037 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[131.6390049457550049] 2019-02-26 19:43:44,100 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:No Rest Lil Skies', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'No Rest Lil Skies', 'webpage_url_basename': 'No Rest Lil Skies', 'extractor_key': 'Generic'}
+[135.7353668212890625] 2019-02-26 19:43:48,197 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Together Trippie Redd
+[135.7373664379119873] 2019-02-26 19:43:48,199 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[135.7373664379119873] 2019-02-26 19:43:48,199 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[135.8023653030395508] 2019-02-26 19:43:48,264 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Together Trippie Redd', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Together Trippie Redd', 'webpage_url_basename': 'Together Trippie Redd', 'extractor_key': 'Generic'}
+[140.1685554981231689] 2019-02-26 19:43:52,630 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Fuck Love (feat. Trippie Redd) XXXTENTACION
+[140.1695778369903564] 2019-02-26 19:43:52,631 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[140.1695778369903564] 2019-02-26 19:43:52,631 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[140.2375645637512207] 2019-02-26 19:43:52,699 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Fuck Love (feat. Trippie Redd) XXXTENTACION', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Fuck Love (feat. Trippie Redd) XXXTENTACION', 'webpage_url_basename': 'Fuck Love (feat. Trippie Redd) XXXTENTACION', 'extractor_key': 'Generic'}
+[144.7090713977813721] 2019-02-26 19:43:57,170 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Lies (feat. Lil Skies) Lil Xan
+[144.7110707759857178] 2019-02-26 19:43:57,172 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[144.7110707759857178] 2019-02-26 19:43:57,172 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[144.7740712165832520] 2019-02-26 19:43:57,235 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Lies (feat. Lil Skies) Lil Xan', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Lies (feat. Lil Skies) Lil Xan', 'webpage_url_basename': 'Lies (feat. Lil Skies) Lil Xan', 'extractor_key': 'Generic'}
+[148.8452818393707275] 2019-02-26 19:44:01,307 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Save That Shit Lil Peep
+[148.8472802639007568] 2019-02-26 19:44:01,309 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[148.8482809066772461] 2019-02-26 19:44:01,310 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[148.9152801036834717] 2019-02-26 19:44:01,377 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Save That Shit Lil Peep', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Save That Shit Lil Peep', 'webpage_url_basename': 'Save That Shit Lil Peep', 'extractor_key': 'Generic'}
+[153.1612687110900879] 2019-02-26 19:44:05,623 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing GONE (feat. Trippie Redd) Paris
+[153.1632683277130127] 2019-02-26 19:44:05,625 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[153.1632683277130127] 2019-02-26 19:44:05,625 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[153.2522664070129395] 2019-02-26 19:44:05,714 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:GONE (feat. Trippie Redd) Paris', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'GONE (feat. Trippie Redd) Paris', 'webpage_url_basename': 'GONE (feat. Trippie Redd) Paris', 'extractor_key': 'Generic'}
+[157.8441417217254639] 2019-02-26 19:44:10,306 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Moving On Global Dan
+[157.8451430797576904] 2019-02-26 19:44:10,307 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[157.8460876941680908] 2019-02-26 19:44:10,307 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[157.9120869636535645] 2019-02-26 19:44:10,373 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Moving On Global Dan', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Moving On Global Dan', 'webpage_url_basename': 'Moving On Global Dan', 'extractor_key': 'Generic'}
+[161.9465458393096924] 2019-02-26 19:44:14,408 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Betrayed Lil Xan
+[161.9485468864440918] 2019-02-26 19:44:14,410 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[161.9485468864440918] 2019-02-26 19:44:14,410 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[162.0445442199707031] 2019-02-26 19:44:14,506 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Betrayed Lil Xan', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Betrayed Lil Xan', 'webpage_url_basename': 'Betrayed Lil Xan', 'extractor_key': 'Generic'}
+[166.5333158969879150] 2019-02-26 19:44:18,995 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Wasted (feat. Lil Uzi Vert) Juice WRLD
+[166.5353167057037354] 2019-02-26 19:44:18,997 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[166.5353167057037354] 2019-02-26 19:44:18,997 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[166.6353139877319336] 2019-02-26 19:44:19,097 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Wasted (feat. Lil Uzi Vert) Juice WRLD', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Wasted (feat. Lil Uzi Vert) Juice WRLD', 'webpage_url_basename': 'Wasted (feat. Lil Uzi Vert) Juice WRLD', 'extractor_key': 'Generic'}
+[171.2785222530364990] 2019-02-26 19:44:23,740 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Cloudy Skies Lil Skies
+[171.2805221080780029] 2019-02-26 19:44:23,742 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[171.2805221080780029] 2019-02-26 19:44:23,742 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[171.3455224037170410] 2019-02-26 19:44:23,807 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Cloudy Skies Lil Skies', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Cloudy Skies Lil Skies', 'webpage_url_basename': 'Cloudy Skies Lil Skies', 'extractor_key': 'Generic'}
+[175.4341745376586914] 2019-02-26 19:44:27,896 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Nicotine Patches $uicideBoy$
+[175.4361743927001953] 2019-02-26 19:44:27,898 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[175.4361743927001953] 2019-02-26 19:44:27,898 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[175.5411725044250488] 2019-02-26 19:44:28,003 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Nicotine Patches $uicideBoy$', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Nicotine Patches $uicideBoy$', 'webpage_url_basename': 'Nicotine Patches $uicideBoy$', 'extractor_key': 'Generic'}
+[179.5246863365173340] 2019-02-26 19:44:31,986 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Wya? Wifisfuneral
+[179.5266869068145752] 2019-02-26 19:44:31,988 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[179.5266869068145752] 2019-02-26 19:44:31,988 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[179.6470417976379395] 2019-02-26 19:44:32,108 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Wya? Wifisfuneral', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Wya? Wifisfuneral', 'webpage_url_basename': 'Wya', 'extractor_key': 'Generic'}
+[183.5364305973052979] 2019-02-26 19:44:35,998 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Lately dying in designer
+[183.5384306907653809] 2019-02-26 19:44:36,000 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[183.5384306907653809] 2019-02-26 19:44:36,000 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[183.6174290180206299] 2019-02-26 19:44:36,079 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Lately dying in designer', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Lately dying in designer', 'webpage_url_basename': 'Lately dying in designer', 'extractor_key': 'Generic'}
+[187.2370557785034180] 2019-02-26 19:44:39,698 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Just One Thing Wicca Phase Springs Eternal
+[187.2380201816558838] 2019-02-26 19:44:39,699 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[187.2390015125274658] 2019-02-26 19:44:39,700 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[187.3090014457702637] 2019-02-26 19:44:39,770 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Just One Thing Wicca Phase Springs Eternal', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Just One Thing Wicca Phase Springs Eternal', 'webpage_url_basename': 'Just One Thing Wicca Phase Springs Eternal', 'extractor_key': 'Generic'}
+[191.3303663730621338] 2019-02-26 19:44:43,792 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Morrissey Cold Hart
+[191.3323669433593750] 2019-02-26 19:44:43,794 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[191.3323669433593750] 2019-02-26 19:44:43,794 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[191.4033660888671875] 2019-02-26 19:44:43,865 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Morrissey Cold Hart', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Morrissey Cold Hart', 'webpage_url_basename': 'Morrissey Cold Hart', 'extractor_key': 'Generic'}
+[195.4143016338348389] 2019-02-26 19:44:47,876 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Aahhyeahh Oliver Francis
+[195.4163014888763428] 2019-02-26 19:44:47,878 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[195.4163014888763428] 2019-02-26 19:44:47,878 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[195.5094296932220459] 2019-02-26 19:44:47,971 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Aahhyeahh Oliver Francis', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Aahhyeahh Oliver Francis', 'webpage_url_basename': 'Aahhyeahh Oliver Francis', 'extractor_key': 'Generic'}
+[199.6409330368041992] 2019-02-26 19:44:52,102 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing tell me that you miss me shattered
+[199.6429326534271240] 2019-02-26 19:44:52,104 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[199.6429326534271240] 2019-02-26 19:44:52,104 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[199.7200632095336914] 2019-02-26 19:44:52,181 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:tell me that you miss me shattered', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'tell me that you miss me shattered', 'webpage_url_basename': 'tell me that you miss me shattered', 'extractor_key': 'Generic'}
+[203.6183989048004150] 2019-02-26 19:44:56,080 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Accusations 070 Shake
+[203.6203987598419189] 2019-02-26 19:44:56,082 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[203.6203987598419189] 2019-02-26 19:44:56,082 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[203.7213985919952393] 2019-02-26 19:44:56,183 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Accusations 070 Shake', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Accusations 070 Shake', 'webpage_url_basename': 'Accusations 070 Shake', 'extractor_key': 'Generic'}
+[207.8203225135803223] 2019-02-26 19:45:00,282 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Infatuated Jesus Honcho
+[207.8223223686218262] 2019-02-26 19:45:00,284 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[207.8232674598693848] 2019-02-26 19:45:00,285 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[207.9212667942047119] 2019-02-26 19:45:00,383 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Infatuated Jesus Honcho', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Infatuated Jesus Honcho', 'webpage_url_basename': 'Infatuated Jesus Honcho', 'extractor_key': 'Generic'}
+[211.7980225086212158] 2019-02-26 19:45:04,259 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing hammer nothing,nowhere.
+[211.8000028133392334] 2019-02-26 19:45:04,261 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[211.8000028133392334] 2019-02-26 19:45:04,261 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[211.8980014324188232] 2019-02-26 19:45:04,359 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:hammer nothing,nowhere.', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'hammer nothing,nowhere.', 'webpage_url_basename': 'hammer nothing,nowhere.', 'extractor_key': 'Generic'}
+[216.2142982482910156] 2019-02-26 19:45:08,676 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Look at Me Now Brennan Savage
+[216.2162976264953613] 2019-02-26 19:45:08,678 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[216.2162976264953613] 2019-02-26 19:45:08,678 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[216.2773010730743408] 2019-02-26 19:45:08,739 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Look at Me Now Brennan Savage', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Look at Me Now Brennan Savage', 'webpage_url_basename': 'Look at Me Now Brennan Savage', 'extractor_key': 'Generic'}
+[221.3210217952728271] 2019-02-26 19:45:13,782 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing You Think You Know Me Kid $Ixty
+[221.3230218887329102] 2019-02-26 19:45:13,784 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[221.3230218887329102] 2019-02-26 19:45:13,784 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[221.4080739021301270] 2019-02-26 19:45:13,869 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:You Think You Know Me Kid $Ixty', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'You Think You Know Me Kid $Ixty', 'webpage_url_basename': 'You Think You Know Me Kid $Ixty', 'extractor_key': 'Generic'}
+[225.5343511104583740] 2019-02-26 19:45:17,996 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 515 in on_player_finished_playing: Running on_player_finished_playing
+[225.5343511104583740] 2019-02-26 19:45:17,996 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[225.5363507270812988] 2019-02-26 19:45:17,998 - DEBUG - musicbot.entry | In entry.py::MainThread(8464), line 56 in get_ready_future: Created future for None
+[225.5363507270812988] 2019-02-26 19:45:17,998 - DEBUG - musicbot.entry | In entry.py::MainThread(8464), line 56 in get_ready_future: Created future for audio_cache\youtube-Ye0WwEluAiw-Alone_as_a_Facetat_Prod._HenryDaher_Official_Audio.webm
+[225.5363507270812988] 2019-02-26 19:45:17,998 - FFMPEG - musicbot.player | In player.py::MainThread(8464), line 273 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Ye0WwEluAiw-Alone_as_a_Facetat_Prod._HenryDaher_Official_Audio.webm
+[225.5393507480621338] 2019-02-26 19:45:18,001 - DEBUG - musicbot.player | In player.py::MainThread(8464), line 284 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x051D3890> using <discord.voice_client.VoiceClient object at 0x051B9390>
+[225.5403509140014648] 2019-02-26 19:45:18,002 - INFO - musicbot.entry | In entry.py::MainThread(8464), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=WsrVxz4pjGs
+[225.5413498878479004] 2019-02-26 19:45:18,003 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 458 in on_player_play: Running on_player_play
+[225.5463504791259766] 2019-02-26 19:45:18,008 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[226.0983438491821289] 2019-02-26 19:45:18,560 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Us Ft. Lil Peep & Lil Tracy SinceWhen
+[226.1003439426422119] 2019-02-26 19:45:18,562 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[226.1003439426422119] 2019-02-26 19:45:18,562 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[226.2503416538238525] 2019-02-26 19:45:18,712 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Us Ft. Lil Peep & Lil Tracy SinceWhen', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Us Ft. Lil Peep & Lil Tracy SinceWhen', 'webpage_url_basename': 'Us Ft. Lil Peep & Lil Tracy SinceWhen', 'extractor_key': 'Generic'}
+[226.9523336887359619] 2019-02-26 19:45:19,414 - INFO - musicbot.entry | In entry.py::MainThread(8464), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=WsrVxz4pjGs
+[230.1702995300292969] 2019-02-26 19:45:22,632 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Faygo Dreams 6 Dogs
+[230.1722943782806396] 2019-02-26 19:45:22,634 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[230.1722943782806396] 2019-02-26 19:45:22,634 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[230.2882921695709229] 2019-02-26 19:45:22,750 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Faygo Dreams 6 Dogs', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Faygo Dreams 6 Dogs', 'webpage_url_basename': 'Faygo Dreams 6 Dogs', 'extractor_key': 'Generic'}
+[234.9272358417510986] 2019-02-26 19:45:27,389 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Spotlight Marshmello
+[234.9292364120483398] 2019-02-26 19:45:27,391 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[234.9292364120483398] 2019-02-26 19:45:27,391 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[234.9922356605529785] 2019-02-26 19:45:27,454 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Spotlight Marshmello', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Spotlight Marshmello', 'webpage_url_basename': 'Spotlight Marshmello', 'extractor_key': 'Generic'}
+[239.9214639663696289] 2019-02-26 19:45:32,383 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Off The Gas (feat. Lil Skies) 6 Dogs
+[239.9234619140625000] 2019-02-26 19:45:32,385 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[239.9234619140625000] 2019-02-26 19:45:32,385 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[239.9964609146118164] 2019-02-26 19:45:32,458 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Off The Gas (feat. Lil Skies) 6 Dogs', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Off The Gas (feat. Lil Skies) 6 Dogs', 'webpage_url_basename': 'Off The Gas (feat. Lil Skies) 6 Dogs', 'extractor_key': 'Generic'}
+[244.0240573883056641] 2019-02-26 19:45:36,485 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing See Me Trying Lil Lucifer
+[244.0260522365570068] 2019-02-26 19:45:36,487 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[244.0270519256591797] 2019-02-26 19:45:36,488 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[244.0970516204833984] 2019-02-26 19:45:36,558 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:See Me Trying Lil Lucifer', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'See Me Trying Lil Lucifer', 'webpage_url_basename': 'See Me Trying Lil Lucifer', 'extractor_key': 'Generic'}
+[248.5530614852905273] 2019-02-26 19:45:41,014 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing P.S Fuck You Cunt (feat. Lil Peep) Fat Nick
+[248.5550608634948730] 2019-02-26 19:45:41,016 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[248.5550608634948730] 2019-02-26 19:45:41,016 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[248.6610600948333740] 2019-02-26 19:45:41,122 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:P.S Fuck You Cunt (feat. Lil Peep) Fat Nick', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'P.S Fuck You Cunt (feat. Lil Peep) Fat Nick', 'webpage_url_basename': 'P.S Fuck You Cunt (feat. Lil Peep) Fat Nick', 'extractor_key': 'Generic'}
+[252.9173011779785156] 2019-02-26 19:45:45,379 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing 4 Gold Chains - (feat. Clams Casino) Lil Peep
+[252.9193010330200195] 2019-02-26 19:45:45,381 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[252.9203007221221924] 2019-02-26 19:45:45,382 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[252.9863011837005615] 2019-02-26 19:45:45,448 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:4 Gold Chains - (feat. Clams Casino) Lil Peep', 'ie_key': None, 'extractor': 'generic', 'webpage_url': '4 Gold Chains - (feat. Clams Casino) Lil Peep', 'webpage_url_basename': '4 Gold Chains - (feat. Clams Casino) Lil Peep', 'extractor_key': 'Generic'}
+[257.0483334064483643] 2019-02-26 19:45:49,510 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Absolute in Doubt Lil Peep
+[257.0493330955505371] 2019-02-26 19:45:49,511 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[257.0503337383270264] 2019-02-26 19:45:49,512 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[257.1193330287933350] 2019-02-26 19:45:49,581 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Absolute in Doubt Lil Peep', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Absolute in Doubt Lil Peep', 'webpage_url_basename': 'Absolute in Doubt Lil Peep', 'extractor_key': 'Generic'}
+[261.1244242191314697] 2019-02-26 19:45:53,586 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing How You Feel Trippie Redd
+[261.1264233589172363] 2019-02-26 19:45:53,588 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[261.1264233589172363] 2019-02-26 19:45:53,588 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[261.1944229602813721] 2019-02-26 19:45:53,656 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:How You Feel Trippie Redd', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'How You Feel Trippie Redd', 'webpage_url_basename': 'How You Feel Trippie Redd', 'extractor_key': 'Generic'}
+[265.3192973136901855] 2019-02-26 19:45:57,781 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Live or Die Yunggoth✰
+[265.3212978839874268] 2019-02-26 19:45:57,783 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[265.3212978839874268] 2019-02-26 19:45:57,783 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[265.3902969360351562] 2019-02-26 19:45:57,852 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Live or Die Yunggoth✰', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Live or Die Yunggoth✰', 'webpage_url_basename': 'Live or Die Yunggoth✰', 'extractor_key': 'Generic'}
+[269.0801684856414795] 2019-02-26 19:46:01,542 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Benz Truck (гелик) Lil Peep
+[269.0821173191070557] 2019-02-26 19:46:01,543 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[269.0821173191070557] 2019-02-26 19:46:01,543 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[269.1531155109405518] 2019-02-26 19:46:01,614 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Benz Truck (гелик) Lil Peep', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Benz Truck (гелик) Lil Peep', 'webpage_url_basename': 'Benz Truck (гелик) Lil Peep', 'extractor_key': 'Generic'}
+[273.6902570724487305] 2019-02-26 19:46:06,152 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing I Can't Feel James Colt
+[273.6912572383880615] 2019-02-26 19:46:06,153 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[273.6922571659088135] 2019-02-26 19:46:06,154 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[273.7652552127838135] 2019-02-26 19:46:06,227 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': "ytsearch:I Can't Feel James Colt", 'ie_key': None, 'extractor': 'generic', 'webpage_url': "I Can't Feel James Colt", 'webpage_url_basename': "I Can't Feel James Colt", 'extractor_key': 'Generic'}
+[278.1273188591003418] 2019-02-26 19:46:10,589 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Awful Things Lil Peep
+[278.1283130645751953] 2019-02-26 19:46:10,590 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[278.1283130645751953] 2019-02-26 19:46:10,590 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[278.2441427707672119] 2019-02-26 19:46:10,706 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Awful Things Lil Peep', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Awful Things Lil Peep', 'webpage_url_basename': 'Awful Things Lil Peep', 'extractor_key': 'Generic'}
+[282.3273220062255859] 2019-02-26 19:46:14,789 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Long Gone (Save Me From This Hell) $uicideBoy$
+[282.3293223381042480] 2019-02-26 19:46:14,791 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[282.3293223381042480] 2019-02-26 19:46:14,791 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[282.6711454391479492] 2019-02-26 19:46:15,133 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Long Gone (Save Me From This Hell) $uicideBoy$', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Long Gone (Save Me From This Hell) $uicideBoy$', 'webpage_url_basename': 'Long Gone (Save Me From This Hell) $uicideBoy$', 'extractor_key': 'Generic'}
+[286.5162382125854492] 2019-02-26 19:46:18,978 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing Fuck With Nobody Killavesi
+[286.5172383785247803] 2019-02-26 19:46:18,979 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[286.5182375907897949] 2019-02-26 19:46:18,980 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[287.0166554450988770] 2019-02-26 19:46:19,478 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Fuck With Nobody Killavesi', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Fuck With Nobody Killavesi', 'webpage_url_basename': 'Fuck With Nobody Killavesi', 'extractor_key': 'Generic'}
+[291.1683411598205566] 2019-02-26 19:46:23,630 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1344 in cmd_play: Processing U Said Lil Peep
+[291.1703412532806396] 2019-02-26 19:46:23,632 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[291.1703412532806396] 2019-02-26 19:46:23,632 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[291.2413408756256104] 2019-02-26 19:46:23,703 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 1380 in cmd_play: {'_type': 'url', 'url': 'ytsearch:U Said Lil Peep', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'U Said Lil Peep', 'webpage_url_basename': 'U Said Lil Peep', 'extractor_key': 'Generic'}
+[295.4461312294006348] 2019-02-26 19:46:27,908 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 595 in on_player_entry_added: Running on_player_entry_added
+[295.4471306800842285] 2019-02-26 19:46:27,909 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[382.8422474861145020] 2019-02-26 19:47:55,304 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 515 in on_player_finished_playing: Running on_player_finished_playing
+[382.8422474861145020] 2019-02-26 19:47:55,304 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[382.8452463150024414] 2019-02-26 19:47:55,307 - DEBUG - musicbot.entry | In entry.py::MainThread(8464), line 56 in get_ready_future: Created future for None
+[382.8452463150024414] 2019-02-26 19:47:55,307 - DEBUG - musicbot.entry | In entry.py::MainThread(8464), line 56 in get_ready_future: Created future for audio_cache\youtube-WsrVxz4pjGs-Juice_WRLD_-_Lean_Wit_Me_Lyrics.webm
+[382.8452463150024414] 2019-02-26 19:47:55,307 - FFMPEG - musicbot.player | In player.py::MainThread(8464), line 273 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-WsrVxz4pjGs-Juice_WRLD_-_Lean_Wit_Me_Lyrics.webm
+[382.8482460975646973] 2019-02-26 19:47:55,310 - DEBUG - musicbot.player | In player.py::MainThread(8464), line 284 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x058AF130> using <discord.voice_client.VoiceClient object at 0x051B9390>
+[382.8492462635040283] 2019-02-26 19:47:55,311 - INFO - musicbot.entry | In entry.py::MainThread(8464), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=KQBRM1GK3T4
+[382.8502459526062012] 2019-02-26 19:47:55,312 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 458 in on_player_play: Running on_player_play
+[382.8552463054656982] 2019-02-26 19:47:55,317 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[384.5167360305786133] 2019-02-26 19:47:56,978 - INFO - musicbot.entry | In entry.py::MainThread(8464), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=KQBRM1GK3T4
+[558.6914618015289307] 2019-02-26 19:50:51,153 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 515 in on_player_finished_playing: Running on_player_finished_playing
+[558.6914618015289307] 2019-02-26 19:50:51,153 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[558.6934618949890137] 2019-02-26 19:50:51,155 - DEBUG - musicbot.entry | In entry.py::MainThread(8464), line 56 in get_ready_future: Created future for None
+[558.6934618949890137] 2019-02-26 19:50:51,155 - DEBUG - musicbot.entry | In entry.py::MainThread(8464), line 56 in get_ready_future: Created future for audio_cache\youtube-KQBRM1GK3T4-Lil_Peep_-_Problems_Audio.webm
+[558.6944649219512939] 2019-02-26 19:50:51,156 - FFMPEG - musicbot.player | In player.py::MainThread(8464), line 273 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-KQBRM1GK3T4-Lil_Peep_-_Problems_Audio.webm
+[558.6964616775512695] 2019-02-26 19:50:51,158 - DEBUG - musicbot.player | In player.py::MainThread(8464), line 284 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x051A5950> using <discord.voice_client.VoiceClient object at 0x051B9390>
+[558.6974616050720215] 2019-02-26 19:50:51,159 - INFO - musicbot.entry | In entry.py::MainThread(8464), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=GM6dc1HMwpk
+[558.6984617710113525] 2019-02-26 19:50:51,160 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 458 in on_player_play: Running on_player_play
+[558.7034611701965332] 2019-02-26 19:50:51,165 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[560.1853499412536621] 2019-02-26 19:50:52,647 - INFO - musicbot.entry | In entry.py::MainThread(8464), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=GM6dc1HMwpk
+[768.5594871044158936] 2019-02-26 19:54:21,021 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 515 in on_player_finished_playing: Running on_player_finished_playing
+[768.5604882240295410] 2019-02-26 19:54:21,022 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[768.5634887218475342] 2019-02-26 19:54:21,025 - DEBUG - musicbot.entry | In entry.py::MainThread(8464), line 56 in get_ready_future: Created future for None
+[768.5634887218475342] 2019-02-26 19:54:21,025 - DEBUG - musicbot.entry | In entry.py::MainThread(8464), line 56 in get_ready_future: Created future for audio_cache\youtube-GM6dc1HMwpk-Negative_Energy.webm
+[768.5634887218475342] 2019-02-26 19:54:21,025 - FFMPEG - musicbot.player | In player.py::MainThread(8464), line 273 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-GM6dc1HMwpk-Negative_Energy.webm
+[768.5664880275726318] 2019-02-26 19:54:21,028 - DEBUG - musicbot.player | In player.py::MainThread(8464), line 284 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x05975D30> using <discord.voice_client.VoiceClient object at 0x051B9390>
+[768.5684881210327148] 2019-02-26 19:54:21,030 - INFO - musicbot.entry | In entry.py::MainThread(8464), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=nkKhUtFqBrU
+[768.5694882869720459] 2019-02-26 19:54:21,031 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 458 in on_player_play: Running on_player_play
+[768.5784876346588135] 2019-02-26 19:54:21,040 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 680 in serialize_queue: Serializing queue for 255886092165840896
+[770.4034082889556885] 2019-02-26 19:54:22,865 - INFO - musicbot.entry | In entry.py::MainThread(8464), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=nkKhUtFqBrU
+[784.1393973827362061] 2019-02-26 19:54:36,601 - INFO - musicbot.bot | In bot.py::MainThread(8464), line 2864 in on_voice_state_update: Pausing in WOV/Music Channel (empty channel)
+[784.1403977870941162] 2019-02-26 19:54:36,602 - DEBUG - musicbot.bot | In bot.py::MainThread(8464), line 506 in on_player_pause: Running on_player_pause
